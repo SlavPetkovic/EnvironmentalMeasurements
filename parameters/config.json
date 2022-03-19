@@ -1,0 +1,10 @@
+{
+  "Azure": [
+    {
+      "host":"Server Name",
+      "user":"User Name",
+      "password":"Password",
+      "database":"Data Base Name"
+    }
+  ]
+}
