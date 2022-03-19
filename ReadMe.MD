@@ -18,6 +18,9 @@ sudo make dkms_install
 reboot
 iwconfig wlan0
 
+### Setting Up VNC
+https://developer.nvidia.com/embedded/learn/tutorials/vnc-setup
+
 ### Git Download
 
 $ git clone <Project A>  # Cloning project repository
@@ -47,13 +50,12 @@ PowerBI Report
 
 ### TO DO
 1. Update JetsonSetUp.sh to run upgrade of python to 3.9
-2. Set python 3.9 to be primary
+2. Set python 3.9 to be primary: https://github.com/SlavPetkovic/EnvironmentalMeasurements.git
 3. Adjust JetsonSetUp.sh to run the test
 4. Adjust etl module:
    1. dataimport functiont to have selection for local db or azure
 5. Adjust main.py to call for ether local or Azure
 6. Write Up for ReadMe.MD file
-
 
 
 
